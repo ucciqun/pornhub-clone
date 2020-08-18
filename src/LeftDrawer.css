@@ -1,0 +1,8 @@
+.drawer__contents {
+  width: 250px !important;
+}
+.drawer__menuIcon {
+  height: 44px !important;
+  width: 44px !important;
+  color: orange !important;
+}

@@ -1,0 +1,21 @@
+.header {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: 70px;
+  object-fit: contain;
+}
+.header__searchIcon {
+  height: 44px !important;
+  width: 44px !important;
+  color: lightgray !important;
+}
+.header__button {
+  width: 25%;
+  color: white !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+}
