@@ -1,0 +1,24 @@
+.thumbnail {
+  margin-bottom: 20px;
+}
+.thumbnail__img {
+  height: 200px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thumbnail > h3 {
+  color: lightgray;
+  margin-left: 5%;
+}
+.thumbnail__detail {
+  color: gray;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5%;
+}
+.thumbnail__detail > small {
+  margin-right: 16px;
+}

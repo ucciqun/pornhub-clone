@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(26, 26, 26);
+  background-color: var(--pornhub-color);
   display: flex;
   justify-content: space-between;
   align-items: center;

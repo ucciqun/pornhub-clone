@@ -1,6 +1,15 @@
+.feed {
+  background-color: black;
+}
 .feed__button {
   color: white !important;
   background-color: black !important;
   width: 90% !important;
   /* margin: 20px !important; */
+  border-color: white !important;
+  margin: 5% !important;
+}
+.feed > h1 {
+  color: white;
+  margin-left: 5%;
 }

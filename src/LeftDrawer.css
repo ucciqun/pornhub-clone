@@ -1,8 +1,65 @@
 .drawer__contents {
-  width: 250px !important;
+  width: 300px !important;
+  height: 100% !important;
+  background-color: var(--pornhub-color);
 }
 .drawer__menuIcon {
   height: 44px !important;
   width: 44px !important;
   color: orange !important;
+}
+
+.drawer__buttonsItem {
+  display: block !important;
+  flex-direction: column !important;
+  width: 100px;
+  background-color: var(--pornhub-color) !important;
+  border-radius: 0 !important;
+  padding-top: 8px !important;
+}
+.drawer__buttonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.drawer__button {
+  padding: 7px;
+  border-radius: 50%;
+  background-color: lightgray !important;
+}
+.drawer__text {
+  font-size: 12px;
+  color: lightgray;
+}
+/* .drawer__menuContainer {
+  display: flex;
+  flex-direction: column;
+} */
+.drawer__menuTitle {
+  padding-left: 10px;
+  color: orange;
+  background-color: black;
+}
+.menuButtonContainer__button {
+  padding-right: 120px !important;
+}
+.menuButtonContainer {
+  display: flex;
+}
+.menuButtonContainer__toggleButton {
+  margin-left: auto !important;
+}
+.menuButtonContainer__toggleIcon {
+  color: lightgray;
+}
+.drawer__menuItem-sub {
+  justify-content: start !important;
+  padding-left: 40px !important;
+  margin-top: 1px !important;
+}
+.drawer__menuItem-text {
+  color: lightgray;
+}
+.drawer__menuItem-icon {
+  margin-right: 10px;
+  color: lightgray;
 }
