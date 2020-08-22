@@ -123,24 +123,6 @@ function LeftDrawer() {
               </Button>
             ))}
 
-            {/* <Button
-              className="drawer__buttonsItem"
-              onClick={() => history.push("/login")}
-            >
-              <PersonIcon className="drawer__button" />
-              <p className="drawer__text">ログイン</p>
-            </Button>
-            <Button
-              className="drawer__buttonsItem"
-              onClick={() => history.push("/signup")}
-            >
-              <CreateIcon className="drawer__button" />
-              <p className="drawer__text">登録する</p>
-            </Button>
-            <Button className="drawer__buttonsItem">
-              <PublishIcon className="drawer__button" />
-              <p className="drawer__text">アップロード</p>
-            </Button> */}
           </div>
           <div className="drawer__menuContainer">
             <h2 className="drawer__menuTitle">メイン</h2>
@@ -151,26 +133,6 @@ function LeftDrawer() {
                   <p className="drawer__menuItem-text">{e.title}</p>
                 </Button>
               ))}
-              {/* <Button className="drawer__menuItem-sub" fullWidth>
-                <ThumbUpIcon className="drawer__menuItem-icon" />
-                <p className="drawer__menuItem-text">ベスト評価</p>
-              </Button>
-              <Button className="drawer__menuItem-sub" fullWidth>
-                <WhatshotIcon className="drawer__menuItem-icon" />
-                <p className="drawer__menuItem-text">急上昇</p>
-              </Button>
-              <Button className="drawer__menuItem-sub" fullWidth>
-                <EqualizerIcon className="drawer__menuItem-icon" />
-                <p className="drawer__menuItem-text">一番人気</p>
-              </Button>
-              <Button className="drawer__menuItem-sub" fullWidth>
-                <EmojiObjectsIcon className="drawer__menuItem-icon" />
-                <p className="drawer__menuItem-text">おすすめ</p>
-              </Button>
-              <Button className="drawer__menuItem-sub" fullWidth>
-                <ScheduleIcon className="drawer__menuItem-icon" />
-                <p className="drawer__menuItem-text">最新</p>
-              </Button> */}
             </MenuButtonContainer>
           </div>
         </div>
