@@ -1,0 +1,71 @@
+.login {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--pornhub-color);
+}
+.login > h1 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.login__subtitle {
+  color: lightgray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+.login__input {
+  padding: 0 !important;
+  font-size: 17px;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 7px;
+  margin-bottom: 14px;
+  width: 100%;
+  border-radius: 3px;
+}
+.login__submit {
+  background-color: orange !important;
+  color: white !important;
+  margin-top: 20px !important;
+  font-weight: bolder !important;
+}
+.login__forget {
+  text-align: center;
+  color: orange;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.login > h2 {
+  color: white;
+  text-align: center;
+}
+.login__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login__item {
+  display: flex;
+  align-items: center;
+  color: white !important;
+  padding: 3px;
+}
+.login__item > p {
+  /* font-size: 14px; */
+  padding-left: 5px;
+  color: lightgray;
+}
+.login__signup {
+  background-color: gray !important;
+  color: white !important;
+  font-weight: bolder !important;
+  margin-top: 20px !important;
+  margin-bottom: 100px !important;
+}

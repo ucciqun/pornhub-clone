@@ -41,6 +41,7 @@
 }
 .menuButtonContainer__button {
   padding-right: 120px !important;
+  padding-left: 10px;
 }
 .menuButtonContainer {
   display: flex;
