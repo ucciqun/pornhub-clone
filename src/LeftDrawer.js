@@ -115,14 +115,13 @@ function LeftDrawer() {
                 className="drawer__buttonsItem"
                 onClick={() => {
                   history.replace(e.route);
-                  toggleDrawer(false);
+                  setState(false);
                 }}
               >
                 {e.icon}
                 <p className="drawer__text">{e.title}</p>
               </Button>
             ))}
-
           </div>
           <div className="drawer__menuContainer">
             <h2 className="drawer__menuTitle">メイン</h2>
