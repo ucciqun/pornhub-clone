@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import LeftDrawer from "./LeftDrawer";
+import { Link } from "react-router-dom";
 
 import SearchIcon from "@material-ui/icons/Search";
 import { IconButton, Button } from "@material-ui/core";
@@ -11,11 +12,14 @@ function Header() {
       <div className="header">
         <LeftDrawer />
 
-        <img
-          src="https://cdn140.picsart.com/286399719094211.png?type=webp&to=min&r=640"
-          alt="Pornhub-logo"
-          className="header__logo"
-        />
+        <Link to="/">
+          <img
+            src="https://cdn140.picsart.com/286399719094211.png?type=webp&to=min&r=640"
+            alt="Pornhub-logo"
+            className="header__logo"
+          />
+        </Link>
+
         <IconButton className="header__searchIcon">
           <SearchIcon />
         </IconButton>

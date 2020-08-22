@@ -15,7 +15,7 @@ function App() {
     <AuthProvider>
       <Router>
         <div className="App">
-          <h1>REACT PORNHUB-CLONE</h1>
+          {/* <h1>REACT PORNHUB-CLONE</h1> */}
           {/*Header*/}
           <Header />
           {/*Feed*/}
