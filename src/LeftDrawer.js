@@ -76,6 +76,28 @@ function LeftDrawer() {
       }
     ]
   };
+  const menus = [
+    {
+      title: "ベスト評価",
+      icon: <ThumbUpIcon className="drawer__menuItem-icon" />
+    },
+    {
+      title: "急上昇",
+      icon: <WhatshotIcon className="drawer__menuItem-icon" />
+    },
+    {
+      title: "一番人気",
+      icon: <EqualizerIcon className="drawer__menuItem-icon" />
+    },
+    {
+      title: "おすすめ",
+      icon: <EmojiObjectsIcon className="drawer__menuItem-icon" />
+    },
+    {
+      title: "最新",
+      icon: <ScheduleIcon className="drawer__menuItem-icon" />
+    }
+  ];
   return (
     <div className="drawer">
       <IconButton className="drawer__menuIcon" onClick={toggleDrawer(true)}>
@@ -123,7 +145,13 @@ function LeftDrawer() {
           <div className="drawer__menuContainer">
             <h2 className="drawer__menuTitle">メイン</h2>
             <MenuButtonContainer>
-              <Button className="drawer__menuItem-sub" fullWidth>
+              {menus.map(e => (
+                <Button className="drawer__menuItem-sub" fullWidth>
+                  {e.icon}
+                  <p className="drawer__menuItem-text">{e.title}</p>
+                </Button>
+              ))}
+              {/* <Button className="drawer__menuItem-sub" fullWidth>
                 <ThumbUpIcon className="drawer__menuItem-icon" />
                 <p className="drawer__menuItem-text">ベスト評価</p>
               </Button>
@@ -142,18 +170,7 @@ function LeftDrawer() {
               <Button className="drawer__menuItem-sub" fullWidth>
                 <ScheduleIcon className="drawer__menuItem-icon" />
                 <p className="drawer__menuItem-text">最新</p>
-              </Button>
-              {category.map(e => (
-                <Button
-                  className="drawer__menuItem-sub"
-                  fullWidth
-                  key={e.title}
-                >
-                  <div className="drawer__menuItem-icon">{e.icon}</div>
-
-                  <p className="drawer__menuItem-text">{e.title}</p>
-                </Button>
-              ))}
+              </Button> */}
             </MenuButtonContainer>
           </div>
         </div>
