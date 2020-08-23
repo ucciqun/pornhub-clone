@@ -81,6 +81,7 @@ function Login({ history }) {
             type="password"
             placeholder="パスワード(6文字以上)"
             className="login__input"
+            autoComplete="on"
           />
         </label>
         <Button type="submit" className="login__submit">
