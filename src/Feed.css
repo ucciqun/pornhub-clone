@@ -7,9 +7,14 @@
   width: 90% !important;
   /* margin: 20px !important; */
   border-color: white !important;
-  margin: 5% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
 }
 .feed > h1 {
   color: white;
   margin-left: 5%;
+}
+.feed__pages {
+  display: flex;
+  justify-content: space-between;
 }

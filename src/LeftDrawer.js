@@ -32,14 +32,6 @@ function LeftDrawer() {
 
     setState(open);
   };
-  const category = [
-    {
-      title: "プレイリスト",
-      icon: <MenuIcon />
-    },
-    { title: "プレイリスト", icon: <EqualizerIcon /> },
-    { title: "プレイリスト", icon: <MenuIcon /> }
-  ];
   const buttons = {
     signed: [
       {

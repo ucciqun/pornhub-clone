@@ -6,6 +6,7 @@ import Feed from "./Feed";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import SignOut from "./SignOut";
+import Footer from "./Footer";
 import { AuthProvider } from "./AuthProvider";
 import PrivateRoute from "./PrivateRoute";
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
           <PrivateRoute exact path="/signout" component={SignOut} />
+          <Footer />
         </div>
       </Router>
     </AuthProvider>

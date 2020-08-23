@@ -1,0 +1,47 @@
+.footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer__item {
+  display: block !important;
+  flex-direction: column !important;
+}
+.footer__icon {
+  color: lightgray !important;
+}
+.footer__description > p {
+  color: lightgray;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.footer__description > p > button {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: orange;
+  display: inline;
+}
+.footer__snsIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer__devise {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__copyRight {
+  font-size: 14px;
+  color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
