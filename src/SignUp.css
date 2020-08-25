@@ -1,0 +1,47 @@
+.signup {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--pornhub-color);
+}
+.signup > h1 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.signup__subtitle {
+  color: lightgray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signup__form {
+  display: flex;
+  flex-direction: column;
+}
+.signup__input {
+  padding: 0 !important;
+  font-size: 17px;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 7px;
+  margin-bottom: 14px;
+  width: 100%;
+  border-radius: 3px;
+}
+.signup__submit {
+  background-color: orange !important;
+  color: white !important;
+  margin-top: 20px !important;
+  font-weight: bolder !important;
+}
+.signup__loginContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.signup__login {
+  color: orange !important;
+  font-weight: bolder !important;
+}
